@@ -1,0 +1,20 @@
+body {
+    min-height: 1000vh;
+    background: linear-gradient(red,pink,#fe2200,orange	);
+}
+.memo {
+	margin-top: 80px;
+}
+.memo .card .card-body:hover {
+	background-color: #fe2200;
+	color: #ffffff;
+	cursor: pointer;
+}
+.memo .card .card-body:hover img {
+	-webkit-filter: invert(1);
+	filter: invert(1);
+}
+.memo .card .card-body .card-title {
+	font-weight: 500;
+	font-size: 20px;
+}
